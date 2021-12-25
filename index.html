@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+        <title>Horoscope</title>
+
+    </head>
+
+    <body onload="onloader()">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col align-items-center">
+                <h1 class = "p-2 bg-secondary rounded text-white">Game Horoscope</h1>
+                
+                <div class = "">
+                <form id = "searchbox" class = "">
+                    <div class = "align-items-center">
+                        <div id = "checker">
+
+                        </div>
+                        <label for = "text" class = "form-label">Input Game Name</label>
+                        <input type = "text" class = "form-text" id = "gamenameinput" placeholder = "Be percise"/>
+                        
+                        <label for = "galleryinfo" class = "form-text ms-5">Select your sign</label>
+                        <select id= "galleryinfo" class= "form-select">
+                            <option>Aries</option>
+                            <option>Taurus</option>
+                            <option>Gemini</option>
+                            <option>Cancer</option>
+                            <option>Leo</option>
+                            <option>Virgo</option>
+                            <option>Libra</option>
+                            <option>Scorpio</option>
+                            <option>Sagittarius</option>
+                            <option>Capicorn</option>
+                            <option>Aquarius</option>
+                            <option>Pisces</option>
+                        </select>
+                        
+                        <button type = "button" class = "m-3 rounded btn btn-secondary" id = "gamename" onclick = "clickgameonly()" >Search</button>
+
+
+                    </div>
+
+                </form>
+                <div class = "container row" id = "gamelist">
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+        <script src=js/mashup.js></script>
+    </body>
+
+
+
+
+    
+</html>

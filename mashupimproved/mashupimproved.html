@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        
+        <title>Game Sale</title>
+    </head>
+    <body onload="onloader()">
+        <div class="container">
+            <div>
+                <h1 class = "bg-secondary rounded text-white m-3 p-2">Game Sales</h1>
+                <div class = "container">
+                    <form id = "searchbox">
+                        <div>
+                            <div id = "checker">
+
+                            </div>
+                            <label for = "gameinput">Search your games name and find out more about your game</label>
+                            <input id = "gameinput" type = "text" placeholder="Be precise"/>
+                            <button type = "button" id = "gamename" onclick = "gamesearch()">Search</button>
+                        </div>
+                    </form>
+
+                    <div id = "gameinfo">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src=js/improvedmu.js></script>
+    </body>
+</html>
